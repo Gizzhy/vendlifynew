@@ -1,0 +1,85 @@
+.app{
+    text-align: center;
+}
+
+
+.slider1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.slider2{
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  padding-top: 3%;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+table {
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #c41f1f;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
+}
+
+p{
+  padding: 10px;
+}
+
+button:focus{
+    border-radius: 6px;
+    background-color: #ff781f;
+}
+button{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    background-color: #ffe2a5;
+    padding: 10px;
+    border: none;
+}
+
+@media screen and (max-width: 850px) {
+    .slider1{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    
+    .slider2{
+        /* text-align: center; */
+        font-size: 15px;
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

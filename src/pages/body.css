@@ -1,0 +1,291 @@
+.body{
+  margin-top: 125px;
+}
+
+
+.googl{
+  text-align: center;
+}
+
+.h-1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 900;
+  margin-top: 10%;
+
+}
+.h-1 span{
+  color: #ff781f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .app-btn{
+  width: 300px;
+    height: 60px;
+   color: #fff;
+   margin: 20px 10px;
+   text-align: left;
+   border-radius: 5px;
+   text-decoration: none;
+  text-transform: uppercase;
+ }
+ .blu{
+  background-color: #ff781f;
+  transition: background-color 0.25s linear;
+ }
+   .blu:hover {
+     background-color: #dad4d4;
+    }
+
+   i {
+    width: 20%;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 7px;
+   }
+   .big-txt {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+   }
+
+
+   .slidingg{
+    margin-top: 5%;
+    margin-bottom: 0%;
+   }
+
+   .section1{
+    margin-top: 5%;
+    
+   }
+
+   .para1{
+    padding: 123px 0;
+   }
+
+   .mobile1-header{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .mobile1-header2{
+    font-size: 19px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  #fourboxes1 {
+    margin: 5% 0;
+  }
+  
+  .fourboxes-container {
+    border: 1px solid #ff781f;
+    padding: 25px;
+    /* margin-left: 20px; */
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background-color: #FBFBFB;
+    /* border-color: #000; */
+  }
+  
+  .fourboxes2{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  .fourboxes3{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+  }
+
+  .fourboxes4{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+
+  .fourboxes5{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+  }
+  
+  
+  .fourboxes-container:hover {
+    animation: pulse;
+    animation-duration: 3s;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .fourboxes-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+
+@media screen and (max-width: 850px) {
+  .h-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+  }
+  .h-1 span {
+    color: #ff781f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  }
+
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  
+   .app-btn{
+    width: 200px;
+      height: 38px;
+     color: #ffffff;
+     margin: 20px 10px;
+     text-align: left;
+     border-radius: 5px;
+     text-decoration: none;
+     text-transform: uppercase;
+   }
+   .blu{
+    background-color: #ff781f;
+    transition: background-color 0.25s linear;
+   }
+     .blu:hover {
+       background-color: #454545;
+      }
+  
+  
+     i {
+      width: 15%;
+      text-align: center;
+      font-size: 17px;
+      margin-right: 3px;
+     }
+     .big-txt {
+      font-size: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      text-transform: capitalize;
+     }
+
+     .slidingg{
+      margin-top: 15%;
+      margin-bottom: 0%;
+     }
+
+     .section1{
+      margin-top: 0%;
+     }
+
+     .mobile1-header{
+      font-size: 25px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+
+    .mobile1-header2{
+      font-size: 15px;
+      text-align: center;
+      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .para1{
+      padding-bottom: 0px;
+    }
+
+    .mobile1-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  
+
+    #fourboxes1 {
+      margin: 5% 0;
+    }
+    
+    .fourboxes-container {
+      border: 1px solid #ff781f;
+      padding: 25px;
+      /* margin-left: 20px; */
+      border-radius: 7px;
+      margin-bottom: 20px;
+      background-color: #FBFBFB;
+      /* border-color: #000; */
+    }
+    
+    .fourboxes2{
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+    }
+  
+    .fourboxes3{
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+    }
+  
+    .fourboxes4{
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+  
+    .fourboxes5{
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      text-align: center;
+    }
+    
+    
+    .fourboxes-container:hover {
+      animation: pulse;
+      animation-duration: 3s;
+      background-color: #000;
+      color: #fff;
+    }
+    
+    .fourboxes-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 30px;
+    }
+
+}
