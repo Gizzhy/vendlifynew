@@ -11,7 +11,7 @@ class Navbar extends Component{
         return(
             <nav className="NavbarItems">
             <div>
-            <img src="images/logo.png" className="logop"/><br></br>
+            <img src="images/logo.png" className="logop" alt=""/><br></br>
             {/* <h1 className="logo">VENDLIFY</h1> */}
           </div>
 
