@@ -24,12 +24,12 @@ const Body = () => {
         </span>
       </h1><br></br>
       <div class="flex social-btns">
-       <a class="app-btn blu flex vert" href="#">
+       <a class="app-btn blu flex vert" href="https://play.google.com/store/apps">
         <i class="fab fa-apple"></i>
         <p><span class="big-txt">Download on App Store</span></p>
        </a>
       
-      <a class="app-btn blu flex vert" href="#">
+      <a class="app-btn blu flex vert" href="https://www.apple.com/app-store/">
       <i class="fab fa-google-play"></i>
       <p class="googl"><span class="big-txt">Download on Google Play</span></p>
       </a>
