@@ -1,6 +1,7 @@
 import "../pages/body.css"
 import {Typewriter} from 'react-simple-typewriter'
 import  mobile1 from "./public/images/mobile1.png"
+import pin from "./public/images/pin.png"
 import  offers from "./public/data/offers.js"
 import Slider from "./Slider"
 
@@ -56,6 +57,38 @@ const Body = () => {
                 </div>
             </section>
 
+
+            <section className="how1">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <p className="howw">How it Works</p>
+                    </div>
+                </div>
+            </div>
+                <div className="container how2">
+                    <div className="row">
+                        <div className="col-md-4">
+                        <img className="pin" src={pin} alt="" />
+                        <h3 className="how3">Set delivery location</h3>
+                        <p className="how4">Select the location where you want us to deliver</p>
+                        </div>
+                        
+                        <div className="col-md-4 howw1">
+                        <img className="pin" src={pin} alt="" />
+                        <h3 className="how3">Set delivery location</h3>
+                        <p className="how4">Select the location where you want us to deliver</p>
+                        </div>
+
+                        <div className="col-md-4">
+                        <img className="pin" src={pin} alt="" />
+                        <h3 className="how3">Set delivery location</h3>
+                        <p className="how4">Select the location where you want us to deliver</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* four boxes section */}
 
             <section id="fourboxes1" data-aos="slide-up">
@@ -84,6 +117,8 @@ const Body = () => {
                 </div>   
                 </div>
             </section>
+            
+            
       
     </>
   )
